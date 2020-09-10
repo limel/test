@@ -493,7 +493,7 @@ h2 {
   padding: 0;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../images/hero-img.jpg);
+  background-image: url(./images/hero-img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

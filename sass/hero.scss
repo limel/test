@@ -1,12 +1,11 @@
 .hero {
   position: relative;
-  // max-width: 1920px;
   height: 661px;
   margin: 0;
   padding: 0;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../images/hero-img.jpg);
+  background-image: url(./images/hero-img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,8 +14,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // margin-left: 100px;
-    // margin-right: 100px;
+
   }
 
   .hero-content {
