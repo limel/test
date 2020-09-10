@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./owl.theme.default.css" />
+    <link rel="stylesheet" href="./owl.carousel.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container__header">
+        <!-- logo -->
+
+        <h1 class="header__logo">
+          <a href="/" class="link"
+            ><svg class="header__logo-svg">
+              <use href="./images/svg/logo.svg#image0"></use>
+            </svg>
+          </a>
+        </h1>
+
+        <nav>
+          <!-- Search form and info -->
+
+          <div class="navigation__top">
+            <form action="search" method="get" class="navigation__search">
+              <input
+                name="search"
+                placeholder="Поиск по сайту"
+                type="search"
+                autocomplete="off"
+              />
+              <button type="submit" class="btn-search">
+                <svg width="14" height="14">
+                  <use href="./images/svg/icons-svg.svg#search"></use>
+                </svg>
+              </button>
+            </form>
+            <div class="tel__info">
+              <a href="tel:+73513289515" class="link">
+                <svg width="14" height="14" class="tel-info__svg">
+                  <use href="./images/svg/icons-svg.svg#tel"></use>
+                </svg>
+                +7 (3513) 28-95-15
+              </a>
+            </div>
+          </div>
+
+          <!-- Menu navigation -->
+
+          <ul class="menu list">
+            <li class="menu__item">
+              <a href="/" class="menu__item-link link">Каталог</a>
+            </li>
+            <li class="menu__item">
+              <a href="/" class="menu__item-link link">О Производителе</a>
+            </li>
+            <li class="menu__item">
+              <a href="/" class="menu__item-link link">Купить оптом</a>
+            </li>
+            <li class="menu__item">
+              <a href="/" class="menu__item-link link">Купить в розницу</a>
+            </li>
+            <li class="menu__item">
+              <a href="/" class="menu__item-link link">Сервис</a>
+            </li>
+            <li class="menu__item">
+              <a href="/" class="menu__item-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+
+    <section class="hero-section">
+      <button
+        class="hero__button-change--left hero__button-change owl-prev"
+        role="presentation"
+      >
+        <svg aria-label="Previous">
+          <use href="./images/svg/icons-svg.svg#arrow-left"></use>
+        </svg>
+      </button>
+      <button class="hero__button-change--right hero__button-change">
+        <svg><use href="./images/svg/icons-svg.svg#arrow"></use></svg>
+      </button>
+      <div class="owl-carousel owl-theme">
+        <div>
+          <div class="hero">
+            <div class="container container__hero">
+              <div class="hero-content">
+                <h2 class="hero__title">ЗАО УРАЛ-МИКМА-ТЕРМ</h2>
+                <span class="hero__info"
+                  >Производство ТЭН и электротеплового оборудования
+                </span>
+                <button type="button" class="btn-detail">Подробнее</button>
+              </div>
+
+              <div class="hero__button">
+                <button type="button" class="btn-play">
+                  <svg class="btn-play--red-triangle">
+                    <use href="./images/svg/icons-svg.svg#play-video"></use>
+                  </svg>
+                </button>
+                <span class="hero__button-text">Смотреть видео</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="hero">
+            <div class="container container__hero">
+              <div class="hero-content">
+                <h2 class="hero__title">ЗАО УРАЛ-МИКМА-ТЕРМ</h2>
+                <span class="hero__info"
+                  >Производство ТЭН и электротеплового оборудования
+                </span>
+                <button type="button" class="btn-detail">Подробнее</button>
+              </div>
+
+              <div class="hero__button">
+                <button type="button" class="btn-play">
+                  <svg class="btn-play--red-triangle">
+                    <use href="./images/svg/icons-svg.svg#play-video"></use>
+                  </svg>
+                </button>
+                <span class="hero__button-text">Смотреть видео</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <ul class="pagination list">
+        <li class="pagination__item pagination__item--active">
+          <a href="#" class="pagination__link link"></a>
+        </li>
+        <li class="pagination__item">
+          <a href="#" class="pagination__link link"></a>
+        </li>
+        <li class="pagination__item">
+          <a href="#" class="pagination__link link"></a>
+        </li>
+        <li class="pagination__item">
+          <a href="#" class="pagination__link link"></a>
+        </li>
+      </ul> -->
+    </section>
+    <script src="jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
